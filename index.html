@@ -18,18 +18,24 @@
     <!-- MAIN -->
     <main>
         <!-- USER ASKS QUESTION -->
+        <!-- need to hold user's input and add click event on button -->
         <section>
             <div>
-                <input type="text">
+                <input type="text" >
                 <button>Ask the Magic 8 Ball</button>
             </div>
         </section>
         <!-- MAGIC 8 BALL RETURNS AN ANSWER -->
+        <!-- below section only appears on click event -->
         <section>
             <div>
-                <p>
-                    The Magic 8 Ball has spoken!
-                </p>
+                <p>ANSWER HERE</p>
+            </div>
+            <div id="gotanswer">
+                <p>The Magic 8 Ball has spoken!</p>
+            </div>
+            <div>
+                <button class="refresh">Ask something else</button>
             </div>
         </section>
     </main>
